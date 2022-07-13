@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const TaskState = (props) => {
 
-    const host = 'http://localhost';
+    const host = 'https://keep-note-backend.herokuapp.com';
     const Initial = []
     const [tasks, setTasks] = useState(Initial);
 
