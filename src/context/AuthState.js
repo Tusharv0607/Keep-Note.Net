@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 const AuthState = (props) => {
 
-    const host = 'http://localhost';
+    const host = 'https://keep-note-backend.herokuapp.com';
     let navigate = useNavigate();
 
     //-------------------------------------------------------------------------------------------//
